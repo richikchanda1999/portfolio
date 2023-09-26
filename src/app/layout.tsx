@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, Zilla_Slab } from 'next/font/google'
+import { Zilla_Slab } from 'next/font/google'
 
 const zillaSlab = Zilla_Slab({weight: ['300', '400', '500', '600', '700'], subsets: ['latin']})
 
