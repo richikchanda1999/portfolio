@@ -1,11 +1,15 @@
-import Section1 from "./Sections/Section1";
-import Section2 from "./Sections/Section2";
+import Intro from "./Sections/Intro";
+import About from "./Sections/About";
+import Projects from "./Sections/Projects";
+import Contact from "./Sections/Contact";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <Section1 />
-      {/* <Section2 /> */}
+      <Intro />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }

@@ -1,16 +1,4 @@
 import type { Config } from 'tailwindcss'
-import plugin from 'tailwindcss/plugin';
-
-type Utility = {
-  [key: string]: {
-    [key: string]: string | number;
-  }
-};
-
-type PluginFunctionParams = {
-  addUtilities: (utilities: Utility, variants?: string[]) => void;
-  // You can also define other plugin function parameters like addComponents, e, etc.
-};
 
 const config: Config = {
   content: [
@@ -25,6 +13,9 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      spacing: {
+        '1/5': '20%',
+      }
     },
   },
   plugins: [],
