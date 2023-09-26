@@ -6,7 +6,7 @@ const fascinateInline = Fascinate_Inline({ weight: "400", subsets: ["latin"] });
 
 export default function Section1() {
   return (
-    <div className="relative w-screen h-screen bg-[#FBFEF9] text-black">
+    <div className="relative w-screen h-screen bg-[#FBFEF9] text-black border-none">
       <Image src="/scribbles.png" alt="heading" fill />
 
       <div className="flex flex-col items-center w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
