@@ -15,6 +15,15 @@ const config: Config = {
       },
       spacing: {
         '1/5': '20%',
+      },
+      colors: {
+        'primary': '#FFF7DB',
+        'secondary': '#102036',
+        'tertiary': '#6D91AB'
+      },
+      height: {
+        'navbar-height': '64px',
+        'screen-height': 'calc(100vh - 64px)'
       }
     },
   },
