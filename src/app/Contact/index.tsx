@@ -14,11 +14,11 @@ export default function Contact() {
   const twitter = "https://twitter.com/richik_chanda";
 
   return (
-    <div id="contact" className="flex w-full justify-between py-[2%] px-[10%]">
+    <div id="contact" className="flex flex-col md:flex-row w-full justify-between py-[2%] px-[10%]">
       <h1 className="text-3xl md:text-6xl font-bold text-secondary">
         Reach out!
       </h1>
-      <div className="flex flex-row justify-around gap-4 text-secondary">
+      <div className="grid grid-cols-2 md:grid-cols-4 mt-8 md:mt-0 justify-around gap-4 text-secondary">
         <Link
           href={`mailto:${email}`}
           passHref
