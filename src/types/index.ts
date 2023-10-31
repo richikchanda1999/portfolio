@@ -15,3 +15,7 @@ export interface ProjectCardProps {
   imageUrl: string;
   links: ProjectLink[];
 }
+
+export interface ListItem {
+  content: (string | { text: string; url: string })[];
+}
