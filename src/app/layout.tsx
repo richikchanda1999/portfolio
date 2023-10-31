@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://richik.me/me_og.jpg",
-        width: 4011,
-        height: 3712,
+        width: 1200,
+        height: 630,
         alt: "Richik Chanda",
       }
     ]
