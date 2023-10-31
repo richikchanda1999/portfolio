@@ -21,9 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={lato.className}>
-        <div className="flex flex-col bg-primary w-screen h-screen">
+        <div className="flex flex-col bg-primary w-screen">
           <Navbar />
-          <div className="w-screen h-screen-height">{children}</div>
+          <div className="w-full">{children}</div>
         </div>
       </body>
     </html>
