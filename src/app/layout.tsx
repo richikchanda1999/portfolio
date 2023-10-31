@@ -15,7 +15,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://richik.me",
-    siteName: "Richik's Corner on the Web",
+    title: "Richik's Corner on the Web",
+    description: "Building things that matter, one block at a time.",
+    siteName: "Richik's Portfolio",
     images: [
       {
         url: "https://richik.me/me.jpg",
