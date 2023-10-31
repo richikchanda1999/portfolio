@@ -1,14 +1,15 @@
-import Intro from "./Sections/Intro";
-import About from "./Sections/About";
-import Projects from "./Sections/Projects";
-import Contact from "./Sections/Contact";
 
-export default function Home() {
+import Contact from "./Contact";
+import Projects from "./Projects";
+import Work from "./Work";
+import Home from "./home";
+
+export default function Page() {
   return (
-    <div className="flex flex-col">
-      <Intro />
-      <About />
+    <div className="flex flex-col items-center justify-center gap-8 mb-16">
+      <Home />
       <Projects />
+      <Work />
       <Contact />
     </div>
   );
