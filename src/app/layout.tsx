@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Richik's Portfolio",
     images: [
       {
-        url: "https://richik.me/me.jpg",
+        url: "https://richik.me/me_og.jpg",
         width: 4011,
         height: 3712,
         alt: "Richik Chanda",
