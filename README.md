@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👋 Hi, I'm Richik Chanda
 
-## Getting Started
+**Full Stack Product Engineer | Dev Tools & Infra Enthusiast | Kolkata, India**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🧠 Summary
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Product-minded full stack engineer with 3+ years of experience building scalable, production-grade web applications.
+Proficient in shipping features end-to-end — across modern front-end stacks, event-driven backends, and cloud-native infrastructure.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🎓 Education
 
-## Learn More
+**Indian Institute of Information Technology, Guwahati**
+_B.Tech in Computer Science and Engineering, Batch of 2022_
+**CGPA:** 8.98 / 10
 
-To learn more about Next.js, take a look at the following resources:
+**Salt Lake School, Kolkata**
+Grade School (2016): 96.6%
+High School (2018): 93.75%
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 💼 Experience
 
-## Deploy on Vercel
+### 🛠 Greyfinch _(US-based Orthodontic SaaS)_
+**Mid-Level Product Engineer** — _Remote, Nov 2023 – Apr 2025_
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Greyfinch Pay App — Revamp & Feature Development (Jan 2024 – Jul 2024)
+- Part of a 3-person team that modernized core payment services
+- Designed and developed a standalone Pay App to support seamless one-off payments
+- Engineered a full-stack solution from scratch within a month
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Appointment Calendar Experience Overhaul (Aug 2024 – Apr 2025)
+- Migrated legacy calendar modules to a modular architecture
+- Rebuilt the UI using FullCalendar, achieving pixel-perfect fidelity with Figma designs
+
+---
+
+### 🧱 Questbook (YC W21)
+**Full Stack Blockchain Developer** — _Remote, Jan 2022 – May 2023_
+
+- Initially joined as a frontend engineer on the Grants Tool
+- Developed and maintained smart contracts, subgraph handlers, and Graph Node infra across:
+  - **Optimism**, **Polygon**, **Celo**, and **Goerli**
+- Built integrations & automations:
+  - Serverless API for Zapier
+  - Email notification service (polls subgraph & sends updates)
+  - Telegram bot for action-based notifications using webhooks and cron-based pub-sub
+- Infra experience includes AWS Lambda, Elastic Beanstalk, and CloudWatch
+
+---
+
+## 🧰 Technical Skills
+
+**Languages:** Java, JavaScript (ES6+), TypeScript, SQL
+**Frameworks:** React, Node.js, Hasura (GraphQL), Serverless Framework
+**Databases:** PostgreSQL, DynamoDB, The Graph (subgraph)
+**DevOps:** Docker, Jenkins, CircleCI
+**Cloud & Infra:** AWS Lambda, CloudWatch, Elastic Beanstalk
+**Tools:** FullCalendar, Figma, Git, Zapier, Telegram Bots, VS Code
+
+---
+
+## 🌐 Connect with Me
+
+- 📧 [richikchanda1999@gmail.com](mailto:richikchanda1999@gmail.com)
+- 🐦 [Twitter](https://twitter.com/richik_chanda)
+- 💼 [LinkedIn](https://www.linkedin.com/in/richik-chanda-0585ba15b/)
+- 💻 [GitHub](https://github.com/richikchanda1999)
+
+---
+
+Thanks for visiting!
