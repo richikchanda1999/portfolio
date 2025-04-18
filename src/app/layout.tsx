@@ -1,47 +1,53 @@
-import "./globals.css";
-import type { Metadata } from "next";
-import { Lato } from "next/font/google";
-import Navbar from "./navbar";
+import type React from "react"
+import "./globals.css"
+import { JetBrains_Mono, Inter } from "next/font/google"
+import Navbar from "./components/Navbar"
+import { ThemeProvider } from "@/components/theme-provider"
+import MatrixRain from "./components/MatrixRain"
+import SakuraParticles from "./components/SakuraParticles"
+import AnimatedCursor from "./components/AnimatedCursor"
+import ScrollProgress from "./components/ScrollProgress"
+import type { Metadata } from "next"
 
-const lato = Lato({
-  weight: ["100", "300", "400", "700", "900"],
+const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-});
+  variable: "--font-jetbrains-mono",
+})
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+})
 
 export const metadata: Metadata = {
-  title: "Richik's Corner on the Web",
-  description: "Building things that matter, one block at a time.",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://richik.me",
-    title: "Richik's Corner on the Web",
-    description: "Building things that matter, one block at a time.",
-    siteName: "Richik's Portfolio",
-    images: [
-      {
-        url: "https://richik.me/me_og.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Richik Chanda",
-      }
-    ]
-  }
-};
+  title: "Richik Chanda | Developer",
+  description: "Portfolio of Richik Chanda, an engineer who builds things that matter.",
+    generator: 'v0.dev'
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={lato.className}>
-        <div className="flex flex-col bg-primary w-screen">
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
+          <MatrixRain />
+          <SakuraParticles />
+          <ScrollProgress />
+          <AnimatedCursor />
           <Navbar />
-          <div className="w-full">{children}</div>
-        </div>
+          <main className="pt-navbar-height">{children}</main>
+          <footer className="border-t border-border/40 py-6 text-center text-muted-foreground">
+            <div className="container mx-auto">
+              <p className="font-mono text-sm">© {new Date().getFullYear()} Richik Chanda. All rights reserved.</p>
+            </div>
+          </footer>
+        </ThemeProvider>
       </body>
     </html>
-  );
+  )
 }
+

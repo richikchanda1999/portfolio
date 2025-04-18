@@ -1,16 +1,19 @@
-
-import Contact from "./Contact";
-import Projects from "./Projects";
-import Work from "./Work";
-import Home from "./home";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Work from "./components/Work";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 export default function Page() {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 mb-16">
-      <Home />
-      <Projects />
-      <Work />
-      <Contact />
+    <div className="flex flex-col items-center justify-center">
+      <div className="w-full max-w-7xl">
+        <Hero />
+        <Work />
+        <Skills />
+        {/* <Projects /> */}
+        <Contact />
+      </div>
     </div>
   );
 }
