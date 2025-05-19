@@ -244,8 +244,8 @@ export default function Contact() {
                 {
                   icon: <Linkedin className="h-5 w-5 text-accent" />,
                   title: "LinkedIn",
-                  text: "linkedin.com/in/richik-chanda-0585ba15b",
-                  href: "https://www.linkedin.com/in/richik-chanda-0585ba15b/",
+                  text: "linkedin.com/in/richikchanda1999",
+                  href: "https://linkedin.com/in/richikchanda1999",
                 },
                 {
                   icon: <Twitter className="h-5 w-5 text-accent" />,

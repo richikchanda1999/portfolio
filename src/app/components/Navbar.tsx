@@ -94,7 +94,7 @@ export default function Navbar() {
             className="flex items-center gap-4 ml-4"
           >
             <motion.a
-              href="https://github.com/yourusername"
+              href="https://github.com/richikchanda1999"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-accent transition-colors duration-300"
@@ -105,7 +105,7 @@ export default function Navbar() {
               <Github className="h-5 w-5" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/richikchanda1999"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-accent transition-colors duration-300"
@@ -172,7 +172,7 @@ export default function Navbar() {
               className="flex items-center gap-6 mt-2"
             >
               <motion.a
-                href="https://github.com/yourusername"
+                href="https://github.com/richikchanda1999"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors duration-300"
@@ -183,7 +183,7 @@ export default function Navbar() {
                 <Github className="h-5 w-5" />
               </motion.a>
               <motion.a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/richikchanda1999"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors duration-300"
