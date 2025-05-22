@@ -2,44 +2,9 @@
 
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Briefcase } from "lucide-react";
+import { WORK_EX } from "./constants";
 
 export default function Work() {
-  const workExperience = [
-    {
-      company: "Greyfinch",
-      role: "Mid Level Product Engineer",
-      period: "November 2023 to April 2025",
-      location: "Remote",
-      description:
-        "Worked on modernizing core services and improving reliability for a US-based Orthodontic Practice Management Software.",
-      achievements: [
-        "Was part of a 3-person team who worked on the overhaul of the payment infrastructure, modernizing core services and improving reliability",
-        "Defined and scoped requirements for a new standalone Pay App to support seamless one-off payments",
-        "Engineered and delivered the full-stack solution from scratch within a month, enabling rapid adoption across partner clinics",
-        "Played a key role in migrating legacy calendar modules to a modular and maintainable architecture",
-        "Rebuilt the UI using FullCalendar, matching Figma designs with pixel-perfect precision and improving user interactivity",
-      ],
-    },
-    {
-      company: "Questbook (YC 21)",
-      role: "Full Stack Blockchain Developer",
-      period: "January 2022 to May 2023",
-      location: "Remote",
-      description:
-        "Worked on their stack end-to-end, starting as a frontend engineer and expanding to blockchain and backend development.",
-      achievements: [
-        "Joined as a frontend engineer, working on the grants tool frontend",
-        "Worked on the set of smart contracts that power the Questbook grants tool",
-        "Added and modified handlers for the subgraph that indexed the events emitted by the contracts",
-        "Maintained the graph node for subgraph deployment on four chains: Optimism, Polygon, Celo and Goerli",
-        "Developed a Serverless API endpoint for Zapier integration",
-        "Built an email notification service using Serverless for tool users",
-        "Created a Telegram bot for user action notifications with a webhook and cron job based on pub-sub architecture",
-        "Acquired experience with AWS Lambda, AWS Elastic Beanstalk, and AWS CloudWatch",
-      ],
-    },
-  ];
-
   return (
     <section id="work" className="py-20 px-[10%] relative">
       <motion.div
@@ -62,7 +27,7 @@ export default function Work() {
       </motion.div>
 
       <div className="space-y-12">
-        {workExperience.map((job, index) => (
+        {WORK_EX.map((job, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 20 }}
@@ -82,7 +47,7 @@ export default function Work() {
               />
 
               {/* Vertical timeline line */}
-              {index < workExperience.length - 1 && (
+              {index < WORK_EX.length - 1 && (
                 <motion.div
                   initial={{ height: 0 }}
                   whileInView={{ height: "calc(100% + 3rem)" }}

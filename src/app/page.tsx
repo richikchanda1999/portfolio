@@ -9,9 +9,9 @@ export default function Page() {
     <div className="flex flex-col items-center justify-center">
       <div className="w-full max-w-7xl">
         <Hero />
+        <Projects />
         <Work />
         <Skills />
-        {/* <Projects /> */}
         <Contact />
       </div>
     </div>

@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   const [text, setText] = useState("");
-  const fullText = "I build things that matter.";
+  const fullText = "Code. Own. Maintain";
   const typingSpeed = 100;
   const cursorRef = useRef<HTMLSpanElement>(null);
 

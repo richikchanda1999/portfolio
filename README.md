@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Richik Chanda
 
-**Full Stack Product Engineer | Dev Tools & Infra Enthusiast | Kolkata, India**
+**Full Stack Product Engineer | Kolkata, India**
 
 ---
 
@@ -68,7 +68,7 @@ High School (2018): 93.75%
 
 - 📧 [richikchanda1999@gmail.com](mailto:richikchanda1999@gmail.com)
 - 🐦 [Twitter](https://twitter.com/richik_chanda)
-- 💼 [LinkedIn](https://www.linkedin.com/in/richik-chanda-0585ba15b/)
+- 💼 [LinkedIn](https://linkedin.com/in/richikchanda1999)
 - 💻 [GitHub](https://github.com/richikchanda1999)
 
 ---
